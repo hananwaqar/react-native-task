@@ -38,6 +38,16 @@ The project features a visually appealing user interface with seamless support f
 - By employing automated testing, potential issues are detected early, preventing regressions, and ensuring a reliable and high-quality application.
 - Dummy data is thoughtfully crafted to simulate real-world scenarios and edge cases.
 
+## Multi-Variant Feature
+
+The project includes a multi-variant feature with `dev`, `prod`, and `staging` variants. The configuration for each variant is set up in the `package.json` file. You can use the variants with the following commands:
+
+- `npm run android-dev` for the development variant on Android.
+- `npm run android-staging` for the staging variant on Android.
+- `npm run android-prod` for the production variant on Android.
+
+For iOS, you can choose the scheme from Xcode to use the desired variant.
+
 ## Getting Started
 
 To get started with the project:
